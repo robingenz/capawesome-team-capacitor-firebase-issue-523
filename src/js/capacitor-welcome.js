@@ -41,7 +41,7 @@ async function init(){
     }
 }
 
-// init();
+init();
 
 
 window.customElements.define(
