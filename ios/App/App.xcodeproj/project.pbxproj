@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		009C15FD2B2D20A1006B560A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 009C15FC2B2D20A1006B560A /* GoogleService-Info.plist */; };
+		002886AF2B30496700B80BDF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 002886AE2B30496700B80BDF /* GoogleService-Info.plist */; };
 		009C16002B2D2150006B560A /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 009C15FF2B2D2150006B560A /* FirebaseAnalytics */; };
 		009C16022B2D2150006B560A /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 009C16012B2D2150006B560A /* FirebaseAnalyticsOnDeviceConversion */; };
 		009C16042B2D2150006B560A /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 009C16032B2D2150006B560A /* FirebaseAnalyticsSwift */; };
@@ -45,7 +45,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		009C15FC2B2D20A1006B560A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		002886AE2B30496700B80BDF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2FAD9762203C412B000D30F8 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
 		50379B222058CBB4000EE86E /* capacitor.config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = capacitor.config.json; sourceTree = "<group>"; };
 		504EC3041FED79650016851F /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,10 +127,10 @@
 		504EC3061FED79650016851F /* App */ = {
 			isa = PBXGroup;
 			children = (
+				002886AE2B30496700B80BDF /* GoogleService-Info.plist */,
 				50379B222058CBB4000EE86E /* capacitor.config.json */,
 				504EC3071FED79650016851F /* AppDelegate.swift */,
 				504EC30B1FED79650016851F /* Main.storyboard */,
-				009C15FC2B2D20A1006B560A /* GoogleService-Info.plist */,
 				504EC30E1FED79650016851F /* Assets.xcassets */,
 				504EC3101FED79650016851F /* LaunchScreen.storyboard */,
 				504EC3131FED79650016851F /* Info.plist */,
@@ -242,12 +242,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				504EC3121FED79650016851F /* LaunchScreen.storyboard in Resources */,
+				002886AF2B30496700B80BDF /* GoogleService-Info.plist in Resources */,
 				50B271D11FEDC1A000F3C39B /* public in Resources */,
 				504EC30F1FED79650016851F /* Assets.xcassets in Resources */,
 				50379B232058CBB4000EE86E /* capacitor.config.json in Resources */,
 				504EC30D1FED79650016851F /* Main.storyboard in Resources */,
 				2FAD9763203C412B000D30F8 /* config.xml in Resources */,
-				009C15FD2B2D20A1006B560A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
